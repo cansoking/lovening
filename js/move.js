@@ -8,7 +8,7 @@ function move(){
         //动画计数器。
         var num = 0;
         //获得移动div，在整个活动区域的X坐标
-        var left = 630;
+        var left = 1100;
         //获得移动div，在整个活动区域的Y坐标
         var top = 220;
         //使用定时器移动DIV
@@ -21,7 +21,7 @@ function move(){
           //通过top样式属性设置，必须带单位
           obj.style.top = top - num * 2 + "px";
           //计数器加一
-          obj.style.opacity =   num  / 140.0;
+          obj.style.opacity =   num  / 117.0;
           num++;
-        },190);
+        },25);
 }

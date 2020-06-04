@@ -1,7 +1,7 @@
 
 /* Global properties ======================================================== */
 body { 
-	background:#6f599c;
+	background:#93c9da;
 	background-image:url(../images/bg.jpg) ;
 	text-align:left;
 }
@@ -34,17 +34,17 @@ body {
 	font-style:italic;
 	font-weight:500;
 	font-size:20px;
-	color:#CCCCCC;
+	color:rgb(255, 255, 255);
 }
 
 #container{
 	overflow:hidden;
 	position:absolute;
-	left:630px;
+	left:1100px;
 	top:220px;
 	width:650px;
 	opacity:0;
-	filter:alpha(opacity=0.7)
+	filter:alpha(opacity=0.9)
 }
 
 #title{
@@ -73,13 +73,13 @@ body {
 
 #time{
 	position:absolute;
-	left:750px;
-	top:400px;
+	left:700px;
+	top:470px;
 	overflow:hidden;
 }
 
 #show{
-	color:#CCCCCC;
+	color:rgb(255, 255, 255);
 	text-shadow: 2px 3px 3px #222; 
 	font-family:Microsoft YaHei;
 	font-style:italic;
@@ -122,10 +122,10 @@ img {
 }
 
 .spanstyle{
-	color:#CCFF99;
+	color:rgb(175, 221, 252);
 	font-family:courier;
 	text-shadow: 2px 2px 1px #222; 
-	font-style:italic;
+	font-style:normal;
 	font-weight:600;
 	font-size:20px;
 	position:absolute;		/* 绝对定位 */
